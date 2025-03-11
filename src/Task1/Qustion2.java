@@ -1,11 +1,22 @@
 package Task1;
+import java.util.Scanner;
 
 public class Qustion2 {
 
 	public static void main(String[] args) {
-		int a=10;
-		for (int i=a; i<=50; i=i+10)
-			System.out.println(i);
+		
+		Scanner john=new Scanner(System.in);
+		int Input=john.nextInt();
+		
+		
+		if (Input>0)
+		{
+			System.out.println("The given value ("+Input+ ") is Positive");
+		}
+		else
+		{
+			System.out.println("The given value ("+Input+ ") is Negative");
+		}
 
 	}
 
