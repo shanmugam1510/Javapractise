@@ -3,19 +3,15 @@ import java.util.Scanner;
 
 public class Question3 {
 	
-
 	public static void main(String[] args) {
-		Scanner b=new Scanner(System.in);
-		boolean a=b.nextBoolean();
-		if(a==reverse(a))
-		{
-			System.out.println(a);
+		Scanner john=new Scanner(System.in);
+		String a=john.nextLine();
+		int b=john.nextInt();
+				{
+			System.out.println("My Name: "+a);
+			System.out.println("My Age: "+b);
 		}
 
 	}
-	public static boolean reverse(boolean value)
-	{
-		rerurn! value;
-	}
-	
+		
 }
